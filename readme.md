@@ -7,7 +7,7 @@
 ###### Installation / Usage
 
     npm install -g sprout
-    sprout add commonjs-lib https://github.com/wilmoore/sprout-commonjs-lib.git
+    sprout add commonjs-lib https://github.com/wilmoore/sprout-commonjs-lib
     sprout init commonjs-lib
 
 ###### npm stats
