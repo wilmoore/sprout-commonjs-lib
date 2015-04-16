@@ -1,0 +1,29 @@
+{
+  "name": "<%= package_name %>",
+  "version": "0.0.0",
+  "description": "<%= package_description %>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -x 'npm run test' -e 'js json'",
+    "standard": "standard",
+    "test": "npm run standard && node test.js | tap-spec",
+    "cover": "istanbul cover test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= github_user_name %>/<%= repo_name %>"
+  },
+  "keywords": [],
+  "author": "<%= author_full_name %> <<%= github_user_email %>>",
+  "license": "MIT",
+  "devDependencies": {
+    "istanbul": "^0.3.13",
+    "nodemon": "^1.3.7",
+    "standard": "^3.3.0",
+    "tap-spec": "^3.0.0",
+    "tape": "^3.5.0",
+    "tape-catch": "^1.0.4"
+  },
+  "dependencies": {
+  }
+}
