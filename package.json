@@ -37,12 +37,12 @@
   ],
   "author": "Wil Moore III <wil.moore@wilmoore.com> (http://github.com/wilmoore)",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "sprout": "^0.2.2",
     "istanbul": "^0.3.13",
     "nodemon": "^1.3.7",
+    "rimraf": "^2.3.2",
+    "sprout": "^0.2.2",
     "standard": "^3.3.0",
     "tap-spec": "^3.0.0",
     "tape": "^3.5.0",
