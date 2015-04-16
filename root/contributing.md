@@ -1,6 +1,6 @@
 # Contributing to <%= package_name %>
 
-Below are a few ways to make contributing to <%= package_name %> smoother:
+Below are a few ways to make contributing to <%= package_name %> smoother.
 
 ## Issues
 
@@ -11,15 +11,15 @@ When opening an issue for a bug, please include steps for reproducing the proble
     git clone https://github.com/wilmoore/sprout-commonjs-lib.git
     cd sprout-commonjs-lib
     npm install
-    npm test
+    npm run dev
 
 ## Tests
 
-If you are adding a new feature, please include tests. The test suite for this project uses [tape](https://github.com/substack/tape). To run the test suite, type `npm test`. You may also run the development watcher which uses [nodemon](http://nodemon.io) to watch for file changes; upon which, it will re-run the test suite.
+If you are adding a new feature, please include tests. The test suite for this project uses [tape](https://github.com/substack/tape). To run the test suite, type `npm test`. You may also run the development watcher (`npm run dev`) which uses [nodemon](http://nodemon.io) to re-run the test suite when files are modified.
 
 ## Style
 
-To keep a consistant coding style in the project, we're using [JavaScript Standard Style](https://github.com/feross/standard).
+To keep a consistent coding style in the project, we're using [JavaScript Standard Style](https://github.com/feross/standard).
 
 ## Commits
 

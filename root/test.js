@@ -17,7 +17,7 @@ var <%= S.camelize(package_name) %> = require('./')
  */
 
 var parameters = [
-  { name: 'default-test', args: [], expected: '<%= S.camelize(package_name) %>' }
+  { name: 'default-test', args: ['training'], expected: 'training' }
 ]
 
 /*!

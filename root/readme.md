@@ -13,14 +13,14 @@
 ## Example
 
     var <%= S.camelize(package_name) %> = require('<%= package_name %>');
-    <%= S.camelize(package_name) %>()
-    //=> <%= S.camelize(package_name) %>
+    <%= S.camelize(package_name) %>('training')
+    //=> training
 
 ## API
 
-###### `<%= S.camelize(package_name) %>()`
+###### `<%= S.camelize(package_name) %>(string)`
 
- * `parameter name` parameter description.
+ * `string` string literal.
 
 ## Licenses
 

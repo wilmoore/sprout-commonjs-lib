@@ -15,13 +15,13 @@ module.exports = <%= S.camelize(package_name) %>
 /**
  * <%= package_description %>
  *
- * @param {*} self
- * `this` value.
+ * @param {String} string
+ * string literal.
  *
- * @return {*}
- * self.
+ * @return {String}
+ * string literal.
  */
 
-function <%= S.camelize(package_name) %> (self) {
-  return format('%s', '<%= S.camelize(package_name) %>')
+function <%= S.camelize(package_name) %> (string) {
+  return format('%s', string)
 }
