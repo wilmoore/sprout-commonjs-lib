@@ -16,7 +16,20 @@
 
 [![npm](https://img.shields.io/npm/v/sprout-commonjs-lib.svg)](https://www.npmjs.org/package/sprout-commonjs-lib) [![NPM downloads](http://img.shields.io/npm/dm/sprout-commonjs-lib.svg)](https://www.npmjs.org/package/sprout-commonjs-lib) [![Dependency Status](https://gemnasium.com/wilmoore/sprout-commonjs-lib.svg)](https://gemnasium.com/wilmoore/sprout-commonjs-lib) 
 
-## input-based template variables
+## Demo
+
+[![demo](https://cloudup.com/cvqmuxPKbym+)](http://youtu.be/pbl2az38PeQ)
+
+## Features
+
+ * Automated test setup via [Tape](https://github.com/substack/tape).
+ * Style guide via [JavaScript Standard Style](https://github.com/feross/standard).
+ * CI via [Travis CI](travis-ci.org).
+ * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
+ * Awesome repo badges via [Shields.IO](http://shields.io).
+ * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
+
+## Input-based template variables
 
  * `github_user_name` GitHub user name.
  * `github_user_email` GitHub user email.
@@ -25,7 +38,7 @@
  * `package_description` Package description.
  * `travis` Whether to use Travis CI.
 
-## derived template variables
+## Derived template variables
 
  * `author_full_name` Package author's full name.
  * `date` Current date.
