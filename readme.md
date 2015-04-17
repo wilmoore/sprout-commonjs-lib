@@ -22,12 +22,14 @@
 
 ## Features
 
+ * Lint & style checking via [JavaScript Standard Style](https://github.com/feross/standard).
  * Automated test setup via [Tape](https://github.com/substack/tape).
- * Style guide via [JavaScript Standard Style](https://github.com/feross/standard).
  * CI via [Travis CI](travis-ci.org).
+ * README with awesome repo badges via [Shields.IO](http://shields.io).
  * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
- * Awesome repo badges via [Shields.IO](http://shields.io).
  * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
+ * [EditorConfig](http://editorconfig.org) support.
+ * [MIT](LICENSE) license.
 
 ## Input-based template variables
 
