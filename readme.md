@@ -2,7 +2,7 @@
 
 [![Build Status](http://img.shields.io/travis/wilmoore/sprout-commonjs-lib.svg)](https://travis-ci.org/wilmoore/sprout-commonjs-lib) [![Code Climate](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-> Project scaffolding for bootstrapping a Node/CommonJS library package.
+> Sprout based Node/CommonJS package generator.
 
 ###### Installation / Usage
 
