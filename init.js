@@ -45,7 +45,7 @@ exports.configure = [
 ]
 
 exports.beforeRender = function (utils, config) {
-  config.time = (new Date().toISOString()).split('T')[0]
+  config.date = (new Date().toISOString()).split('T')[0]
   config.github_clone_url = format('https://github.com/%s/%s.git', config.github_user_name, config.repo_name)
   config.author_full_name = gitConfigGet('user.name')
 }

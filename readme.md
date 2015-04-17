@@ -8,13 +8,15 @@
 
     npm install -g sprout
     sprout add commonjs-lib https://github.com/wilmoore/sprout-commonjs-lib
-    sprout init commonjs-lib
+    sprout init commonjs-lib my-new-lib
+
+> NOTE: You may pass a relative path (as depicted above) or a full path.
 
 ###### npm stats
 
 [![npm](https://img.shields.io/npm/v/sprout-commonjs-lib.svg)](https://www.npmjs.org/package/sprout-commonjs-lib) [![NPM downloads](http://img.shields.io/npm/dm/sprout-commonjs-lib.svg)](https://www.npmjs.org/package/sprout-commonjs-lib) [![Dependency Status](https://gemnasium.com/wilmoore/sprout-commonjs-lib.svg)](https://gemnasium.com/wilmoore/sprout-commonjs-lib) 
 
-## options
+## input-based template variables
 
  * `github_user_name` GitHub user name.
  * `github_user_email` GitHub user email.
@@ -23,6 +25,12 @@
  * `package_description` Package description.
  * `travis` Whether to use Travis CI.
 
+## derived template variables
+
+ * `author_full_name` Package author's full name.
+ * `date` Current date.
+ * `github_clone_url` GitHub clone URL.
+ 
 ## Alternatives
 
 - [generator-nm](https://github.com/sindresorhus/generator-nm)
