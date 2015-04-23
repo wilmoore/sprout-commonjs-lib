@@ -12,15 +12,35 @@
 
 ## Example
 
-    var <%= S.camelize(package_name) %> = require('<%= package_name %>');
-    <%= S.camelize(package_name) %>('training')
-    //=> training
+```js
+var <%= S.camelize(package_name) %> = require('<%= package_name %>');
+<%= S.camelize(package_name) %>('training')
+//=> training
+```
+
+## Features
+
+* Supports …
+
+## Anti-Features
+
+* Will never …
 
 ## API
 
-###### `<%= S.camelize(package_name) %>(string)`
+> `<%= S.camelize(package_name) %>(string)`
 
- * `string` string literal.
+###### Arguments
+
+ * `string: (…String)` _The string literal_.
+
+###### Returns
+
+ * `(String)` _The new string_.
+
+## Alternatives
+
+* [example](https://example.com)
 
 ## Licenses
 
