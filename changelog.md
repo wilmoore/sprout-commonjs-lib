@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
-## 0.4.1 - 2015-04-23
+## 0.5.1 - 2015-04-23
 ### Changed
 - [root/index.js] imports and exports block updated to use ! instead of *.
 - npm install --save-dev tape@latest sprout@latest standard@latest
