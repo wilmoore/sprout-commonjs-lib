@@ -1,12 +1,12 @@
 'use strict'
 
-/**
+/*!
  * imports.
  */
 
 var format = require('util').format
 
-/**
+/*!
  * exports.
  */
 
