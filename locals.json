@@ -1,8 +1,8 @@
 {
   "github_user_name": "wilmoore",
   "github_user_email": "wil.moore@wilmoore.com",
-  "package_name": "tiny",
-  "repo_name": "tiny.js",
+  "package_name": "@wilmoore/tiny",
+  "repo_name": "node-tiny.js",
   "package_description": "Tiny Library.",
   "travis": true
 }

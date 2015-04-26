@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.0 - 2015-04-26
+### Added
+- Added support for npm scoped modules.
+
 ## 0.5.1 - 2015-04-23
 ### Changed
 - [root/index.js] imports and exports block updated to use ! instead of *.

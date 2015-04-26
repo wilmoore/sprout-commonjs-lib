@@ -30,6 +30,7 @@
  * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
  * [EditorConfig](http://editorconfig.org) support.
  * [MIT](LICENSE) license.
+ * Supports npm scoped modules.
 
 ## Input-based template variables
 

@@ -1,6 +1,6 @@
-# Contributing to <%= package_name %>
+# Contributing to <%= simple_name %>
 
-Below are a few ways to make contributing to `<%= package_name %>` smoother.
+Below are a few ways to make contributing to `<%= simple_name %>` smoother.
 
 ## Issues
 

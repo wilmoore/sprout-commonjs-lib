@@ -53,7 +53,7 @@ var parameters = [
   { file: 'package.json', pattern: format('"name": "%s"', locals.package_name) },
   { file: 'readme.md', pattern: /tiny\('training'\)/ },
   { file: 'license', pattern: locals.github_user_email },
-  { file: 'contributing.md', pattern: format('Contributing to %s', locals.package_name) },
+  { file: 'contributing.md', pattern: 'Contributing to tiny' },
   { file: 'test.js', pattern: format('%s()', locals.package_name) },
   { file: '.travis.yml', pattern: 'language: node_js' }
 ]

@@ -10,7 +10,7 @@ var format = require('util').format
  * exports.
  */
 
-module.exports = <%= S.camelize(package_name) %>
+module.exports = <%= export_name %>
 
 /**
  * <%= package_description %>
@@ -22,6 +22,6 @@ module.exports = <%= S.camelize(package_name) %>
  * string literal.
  */
 
-function <%= S.camelize(package_name) %> (string) {
+function <%= export_name %> (string) {
   return format('%s', string)
 }
