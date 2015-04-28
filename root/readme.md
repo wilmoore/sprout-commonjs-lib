@@ -53,4 +53,4 @@ var <%= export_name %> = require('<%= package_name %>');
 
 ## Licenses
 
-[![GitHub license](https://img.shields.io/github/license/<%= github_user_name %>/<%= repo_name %>.svg)]()
+[![GitHub license](https://img.shields.io/github/license/<%= github_user_name %>/<%= repo_name %>.svg)](https://github.com/<%= github_user_name %>/<%= repo_name %>/blob/master/license)

@@ -65,5 +65,4 @@ If your module/package building process is similar to mine, then this is the rig
 
 ## Licenses
 
-[![LICENSE](http://img.shields.io/npm/l/sprout-commonjs-lib.svg)](license)
-[![GitHub license](https://img.shields.io/github/license/wilmoore/sprout-commonjs-lib.svg)](license)
+[![GitHub license](https://img.shields.io/github/license/wilmoore/sprout-commonjs-lib.svg)](https://github.com/wilmoore/sprout-commonjs-lib/blob/master/license)
