@@ -7,14 +7,14 @@ exports.configure = [
     type: 'input',
     name: 'github_user_name',
     message: 'What is your GitHub username?',
-    default: gitConfigGet('github.user')
+    default: process.env.GH_USER_NAME || gitConfigGet('github.user')
   },
 
   {
     type: 'input',
     name: 'github_user_email',
     message: 'What is your GitHub email address?',
-    default: gitConfigGet('user.email')
+    default: process.env.GIT_AUTHOR_EMAIL || gitConfigGet('user.email')
   },
 
   {

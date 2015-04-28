@@ -10,3 +10,8 @@ before_script:
 cache:
   directories:
     - node_modules
+env:
+  global:
+    - GH_USER_NAME: wilmoore
+    - GIT_AUTHOR_NAME: "TravisCI"
+    - GIT_AUTHOR_EMAIL: "noreply@travis-ci.org"
