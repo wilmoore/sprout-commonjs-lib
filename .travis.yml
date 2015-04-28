@@ -4,9 +4,6 @@ node_js:
   - '0.10'
   - '0.12'
   - 'iojs'
-before_script:
-  - git config --global github.user "wilmoore"
-  - git config --global user.email "wil.moore@wilmoore.com"
 cache:
   directories:
     - node_modules
