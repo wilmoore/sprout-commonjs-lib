@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.1 - 2015-04-27
+### Added
+- Added "Reference" section to readme.
+- Added "Contributing" section to readme linking to `contributing.md`.
+- Added documentation for new variables `simple_name` and `export_name`.
+
+### Changed
+- Optimized organization of badges.
+
 ## 0.6.0 - 2015-04-26
 ### Added
 - Added support for npm scoped modules.

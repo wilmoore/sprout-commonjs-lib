@@ -1,16 +1,17 @@
-# <%= package_name %> [![Build Status](http://img.shields.io/travis/<%= github_user_name %>/<%= repo_name %>.svg)](https://travis-ci.org/<%= github_user_name %>/<%= repo_name %>) [![Code Climate](https://codeclimate.com/github/<%= github_user_name %>/<%= repo_name %>/badges/gpa.svg)](https://codeclimate.com/github/<%= github_user_name %>/<%= repo_name %>) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
+# <%= package_name %>
 > <%= package_description %>
 
-###### npm install
+[![Build Status](http://img.shields.io/travis/<%= github_user_name %>/<%= repo_name %>.svg)](https://travis-ci.org/<%= github_user_name %>/<%= repo_name %>) [![Code Climate](https://codeclimate.com/github/<%= github_user_name %>/<%= repo_name %>/badges/gpa.svg)](https://codeclimate.com/github/<%= github_user_name %>/<%= repo_name %>) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-    npm install <%= package_name %> --save
+```shell
+npm install <%= package_name %> --save
+```
 
 ###### npm stats
 
 [![npm](https://img.shields.io/npm/v/<%= package_name %>.svg)](https://www.npmjs.org/package/<%= package_name %>) [![NPM downloads](http://img.shields.io/npm/dm/<%= package_name %>.svg)](https://www.npmjs.org/package/<%= package_name %>) [![Dependency Status](https://gemnasium.com/<%= github_user_name %>/<%= repo_name %>.svg)](https://gemnasium.com/<%= github_user_name %>/<%= repo_name %>)
 
-## Example
+## API Example
 
 ```js
 var <%= export_name %> = require('<%= package_name %>');
@@ -20,29 +21,36 @@ var <%= export_name %> = require('<%= package_name %>');
 
 ## Features
 
-* Supports …
+ - Supports …
 
 ## Anti-Features
 
-* Will never …
+ - Will never …
 
 ## API
 
-> `<%= export_name %>(string)`
+### `<%= export_name %>(string)`
 
-###### Arguments
+###### arguments
 
- * `string: (…String)` _The string literal_.
+ - `string: (…String)` String Literal.
 
-###### Returns
+###### returns
 
- * `(String)` _The new string_.
+ - `(String)` New String.
+
+## Reference
+
+ - []()
 
 ## Alternatives
 
-* [example](https://example.com)
+ - [example](https://example.com)
+
+## Contributing
+
+> SEE: [contributing.md](contributing.md)
 
 ## Licenses
 
-[![LICENSE](http://img.shields.io/npm/l/<%= package_name %>.svg)](license)
-
+[![GitHub license](https://img.shields.io/github/license/<%= github_user_name %>/<%= repo_name %>.svg)]()
