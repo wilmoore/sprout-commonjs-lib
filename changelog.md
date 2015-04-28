@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.2 - 2015-04-28
+### Added
+- Added `.gitattributes` file.
+
 ## 0.6.1 - 2015-04-27
 ### Added
 - Added "Reference" section to readme.
