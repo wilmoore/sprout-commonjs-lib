@@ -1,11 +1,12 @@
+sudo: false
 language: node_js
 node_js:
   - '0.10'
   - '0.12'
   - 'iojs'
-sudo: false
+before_script:
+  - git config --global github.user "wilmoore"
+  - git config --global user.email "wil.moore@wilmoore.com"
 cache:
   directories:
     - node_modules
-script:
-  - npm test
