@@ -24,14 +24,15 @@ sprout init commonjs-lib my-new-lib
 ## Features
 
  * Lint & style checking via [JavaScript Standard Style](https://github.com/feross/standard).
- * Automated test setup via [Tape](https://github.com/substack/tape).
+ * Green test suite via [tape](https://github.com/substack/tape) & [npm test](https://docs.npmjs.com/cli/test).
+ * Run tests automatically on file change va [nodemon](http://nodemon.io).
  * CI via [Travis CI](travis-ci.org).
- * README with awesome repo badges via [Shields.IO](http://shields.io).
+ * Markdown-based [README](http://en.wikipedia.org/wiki/README) with awesome repo badges via [Shields.IO](http://shields.io).
  * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
  * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
  * [EditorConfig](http://editorconfig.org) support.
  * [MIT](LICENSE) license.
- * Supports npm scoped modules.
+ * Support for npm [scoped packages](https://docs.npmjs.com/misc/scope).
 
 ## Input-based template variables
 
