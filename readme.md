@@ -34,6 +34,12 @@ sprout init commonjs-lib my-new-lib
  * [MIT](LICENSE) license.
  * Support for npm [scoped packages](https://docs.npmjs.com/misc/scope).
 
+## Why use this generator over the others?
+
+How one builds Node modules is a fairly personal and evolving process. It should also be as painless as possible. I personally prefer to use a generator that streamlines the way **I** build modules/packages over generators that provide a ton of options. If I find that I need those options, I'll bake them into the process.
+
+If your module/package building process is similar to mine, then this is the right generator for you. If it is close but you feel like my process is missing something, check out the [contributing doc](contributing.md) and send over a PR.
+
 ## Input-based template variables
 
  * `github_user_name` GitHub user name.
@@ -53,10 +59,11 @@ sprout init commonjs-lib my-new-lib
 
 ## Alternatives
 
-- [generator-nm](https://github.com/sindresorhus/generator-nm)
-- [sprout-node](https://github.com/carrot/sprout-node)
+- [generator-nm](https://github.com/sindresorhus/generator-nm) (Yeoman)
+- [sprout-node](https://github.com/carrot/sprout-node) (Sprout)
+- [module-init](https://www.npmjs.com/package/module-init) (Just Node)
 
 ## Licenses
 
 [![LICENSE](http://img.shields.io/npm/l/sprout-commonjs-lib.svg)](license)
-
+[![GitHub license](https://img.shields.io/github/license/wilmoore/sprout-commonjs-lib.svg)](license)

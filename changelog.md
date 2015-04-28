@@ -1,6 +1,15 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.4 - 2015-04-28
+### Added
+- add contributing.md.
+- add "why" section to readme.
+
+### Changed
+- revert to tap-spec@^2.2.2.
+- organized package.json like fixpack would.
+
 ## 0.6.3 - 2015-04-28
 ### Added
 - Added moar feature info.
