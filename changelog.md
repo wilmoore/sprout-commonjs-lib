@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.6 - 2015-04-28
+### Added
+- module-init has a nice .travis.yml, let's use some of it :).
+
 ## 0.6.5 - 2015-04-28
 ### Added
 - add link to github license.
