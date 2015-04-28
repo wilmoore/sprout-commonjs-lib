@@ -11,13 +11,14 @@ var path = require('path')
 var rimraf = require('rimraf').sync
 var Sprout = require('sprout')
 var test = require('tape-catch')
+var tmpdir = require('osenv').tmpdir()
 
 /*!
  * constants.
  */
 
 var TEMPLATE_NAME = 'commonjs-lib'
-var BASE_OUT_PATH = path.resolve(process.env.TMPDIR, TEMPLATE_NAME)
+var BASE_OUT_PATH = path.resolve(tmpdir, TEMPLATE_NAME)
 console.error(BASE_OUT_PATH)
 
 /*!
