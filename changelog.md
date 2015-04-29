@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.6.8 - 2015-04-28
+### Changed
+- switch away from `execSync` to `sync-exec`.
+
+### Added
+- add `before_script` with `git config --global …` to `.travis.yml`.
+
 ## 0.6.7 - 2015-04-28
 ### Added
 - use osenv for tmpdir().
