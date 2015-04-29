@@ -11,7 +11,7 @@ var path = require('path')
 var rimraf = require('rimraf').sync
 var Sprout = require('sprout')
 var test = require('tape-catch')
-var tmpdir = require('osenv').tmpdir()
+var tmpdir = require('os').tmpDir()
 
 /*!
  * constants.
