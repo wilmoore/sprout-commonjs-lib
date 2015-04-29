@@ -4,7 +4,7 @@
  * imports.
  */
 
-var exec = require('child_process').execSync
+var exec = require('runsync').exec
 
 /*!
  * exports.
@@ -66,7 +66,7 @@ function repoName (name) {
  */
 
 function gitConfigGet (key) {
-  return String(exec('git config --get ' + key) || '').trim()
+  return exec('git config --get ' + key).toString().trim()
 }
 
 /**

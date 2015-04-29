@@ -6,7 +6,9 @@
   "bugs": {
     "url": "https://github.com/<%= github_user_name %>/<%= repo_name %>/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "runsync": "^0.1.8"
+  },
   "devDependencies": {
     "istanbul": "^0.3.13",
     "mkdirp": "^0.5.0",
