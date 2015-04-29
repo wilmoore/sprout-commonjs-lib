@@ -6,8 +6,7 @@
   "bugs": {
     "url": "https://github.com/<%= github_user_name %>/<%= repo_name %>/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "istanbul": "^0.3.13",
     "mkdirp": "^0.5.0",
@@ -15,6 +14,7 @@
     "rimraf": "^2.3.2",
     "sprout": "^0.2.3",
     "standard": "^3.7.1",
+    "sync-exec": "^0.5.0",
     "tap-spec": "^2.2.2",
     "tape": "^4.0.0",
     "tape-catch": "^1.0.4"
