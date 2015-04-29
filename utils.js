@@ -66,7 +66,7 @@ function repoName (name) {
  */
 
 function gitConfigGet (key) {
-  return exec('git config --get ' + key).toString().trim()
+  return String(exec('git config --get ' + key) || '').trim()
 }
 
 /**
