@@ -4,7 +4,7 @@
  * imports.
  */
 
-var exec = require('runsync').exec
+var exec = require('child_process').execSync
 
 /*!
  * exports.
