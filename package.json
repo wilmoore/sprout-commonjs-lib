@@ -20,6 +20,10 @@
     "tape": "^4.0.0",
     "tape-catch": "^1.0.4"
   },
+  "engines": {
+    "node": ">=0.12",
+    "iojs": ">=1"
+  },
   "homepage": "https://github.com/wilmoore/sprout-commonjs-lib",
   "keywords": [
     "scaffold",

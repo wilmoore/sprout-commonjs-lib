@@ -4,7 +4,7 @@
  * imports.
  */
 
-var exec = require('sync-exec')
+var exec = require('child_process').execSync
 
 /*!
  * exports.

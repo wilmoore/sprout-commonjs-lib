@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.2 - 2015-05-03
+### Removed
+- remove package `sync-exec` and require node >=0.12 or iojs.
+
 ## 0.7.1 - 2015-05-03
 ### Removed
 - remove package `sync-exec` from `devDependencies`.

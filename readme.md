@@ -1,7 +1,7 @@
 # sprout-commonjs-lib
 > [Sprout](https://github.com/carrot/sprout) based Node/CommonJS package generator.
 
-[![Build Status](http://img.shields.io/travis/wilmoore/sprout-commonjs-lib.svg)](https://travis-ci.org/wilmoore/sprout-commonjs-lib) [![Code Climate](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
+[![node](https://img.shields.io/node/v/sprout-commonjs-lib.svg)](https://www.npmjs.org/package/sprout-commonjs-lib) [![Build Status](http://img.shields.io/travis/wilmoore/sprout-commonjs-lib.svg)](https://travis-ci.org/wilmoore/sprout-commonjs-lib) [![Code Climate](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/sprout-commonjs-lib) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 ###### Installation / Usage
 
