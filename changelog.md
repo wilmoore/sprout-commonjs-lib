@@ -1,9 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.1 - 2015-05-03
+### Removed
+- remove package `sync-exec` from `devDependencies`.
+
 ## 0.7.0 - 2015-05-03
 ### Added
-- add package `sync-exec` which was missing.
+- add package `sync-exec` to `dependencies`.
 
 ## 0.6.8 - 2015-04-28
 ### Changed
