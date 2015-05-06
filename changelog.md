@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.3 - 2015-05-06
+### Added
+- added more keywords.
+
+### Changed
+- fixpack
+
 ## 0.7.2 - 2015-05-03
 ### Removed
 - remove package `sync-exec` and require node >=0.12 or iojs.
