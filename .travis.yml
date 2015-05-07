@@ -9,3 +9,5 @@ before_script:
   - git config --global user.name "Wil Moore III"
   - git config --global user.email "wil.moore@wilmoore.com"
   - git config --global github.user "wilmoore"
+before_install:
+  - npm install -g npm@latest

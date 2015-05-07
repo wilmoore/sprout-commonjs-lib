@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.4 - 2015-05-07
+### Added
+- ensure Travis updates to latest npm before running install.
+
 ## 0.7.3 - 2015-05-06
 ### Added
 - added more keywords.
