@@ -32,7 +32,7 @@ sprout init commonjs-lib my-new-lib
  * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
  * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
  * [EditorConfig](http://editorconfig.org) support.
- * [MIT](LICENSE) license.
+ * [MIT](license) license.
 
 ## Why use this generator over the others?
 
