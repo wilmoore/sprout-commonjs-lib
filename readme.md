@@ -25,14 +25,14 @@ sprout init commonjs-lib my-new-lib
 
  * Lint & style checking via [JavaScript Standard Style](https://github.com/feross/standard).
  * Green test suite via [tape](https://github.com/substack/tape) & [npm test](https://docs.npmjs.com/cli/test).
- * Run tests automatically on file change va [nodemon](http://nodemon.io).
- * CI via [Travis CI](travis-ci.org) w/ [docker support enabled](http://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure/) & [node_modules cached](http://blog.travis-ci.com/2013-12-05-speed-up-your-builds-cache-your-dependencies/)
+ * Run tests automatically on file change via [nodemon](http://nodemon.io).
+ * CI via [Travis CI](travis-ci.org) w/ [docker support enabled](http://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure/) & [node_modules cached](http://blog.travis-ci.com/2013-12-05-speed-up-your-builds-cache-your-dependencies/).
+ * Support for npm [scoped packages](https://docs.npmjs.com/misc/scope).
  * Markdown-based [README](http://en.wikipedia.org/wiki/README) with awesome repo badges via [Shields.IO](http://shields.io).
  * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
  * Contributer [Guidelines](https://github.com/blog/1184-contributing-guidelines).
  * [EditorConfig](http://editorconfig.org) support.
  * [MIT](LICENSE) license.
- * Support for npm [scoped packages](https://docs.npmjs.com/misc/scope).
 
 ## Why use this generator over the others?
 

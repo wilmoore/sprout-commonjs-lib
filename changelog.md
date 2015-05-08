@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.6 - 2015-05-08
+### Added
+- add `.env` and `.env.*` to `.gitignore`.
+
+### Changed
+- correct typo in feature section of changelog.
+
 ## 0.7.5 - 2015-05-08
 ### Changed
 - removed orphaned semi-colon from readme example.
