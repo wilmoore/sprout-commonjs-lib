@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.5 - 2015-05-08
+### Changed
+- removed orphaned semi-colon from readme example.
+
 ## 0.7.4 - 2015-05-07
 ### Added
 - ensure Travis updates to latest npm before running install.

@@ -14,7 +14,7 @@ npm install <%= package_name %> --save
 ## API Example
 
 ```js
-var <%= export_name %> = require('<%= package_name %>');
+var <%= export_name %> = require('<%= package_name %>')
 <%= export_name %>('training')
 //=> training
 ```
