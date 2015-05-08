@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.7 - 2015-05-08
+### Added
+- add `.env` and `.env.*` to `root/.gitignore`.
+
 ## 0.7.6 - 2015-05-08
 ### Added
 - add `.env` and `.env.*` to `.gitignore`.
