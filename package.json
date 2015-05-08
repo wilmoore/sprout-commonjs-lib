@@ -1,7 +1,7 @@
 {
   "name": "sprout-commonjs-lib",
   "description": "Sprout based Node/CommonJS package generator.",
-  "version": "0.7.7",
+  "version": "0.7.8",
   "author": "Wil Moore III <wil.moore@wilmoore.com> (http://github.com/wilmoore)",
   "bugs": {
     "url": "https://github.com/wilmoore/sprout-commonjs-lib/issues"
