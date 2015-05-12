@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.7.9 - 2015-05-11
+### Changed
+- mention Duo, Bower as alternative install options.
+
 ## 0.7.8 - 2015-05-08
 ### Changed
 - correct license link in readme.

@@ -7,6 +7,8 @@
 npm install <%= package_name %> --save
 ```
 
+>  You can also use Duo, Bower or [download the files manually](https://github.com/<%= github_user_name %>/<%= repo_name %>/releases).
+
 ###### npm stats
 
 [![npm](https://img.shields.io/npm/v/<%= package_name %>.svg)](https://www.npmjs.org/package/<%= package_name %>) [![NPM downloads](http://img.shields.io/npm/dm/<%= package_name %>.svg)](https://www.npmjs.org/package/<%= package_name %>) [![Dependency Status](https://gemnasium.com/<%= github_user_name %>/<%= repo_name %>.svg)](https://gemnasium.com/<%= github_user_name %>/<%= repo_name %>)
