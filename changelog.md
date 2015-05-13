@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
-## 0.8.0 - 2015-05-12
+## 0.8.1 - 2015-05-12
 ### Added
 - add `release-*` scripts.
 
