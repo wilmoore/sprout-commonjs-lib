@@ -28,6 +28,9 @@
   "scripts": {
     "cover": "istanbul cover test.js",
     "dev": "nodemon -x 'npm run test --silent' -e 'js json'",
+    "release-major": "npm version major && npm publish && git push --follow-tags",
+    "release-minor": "npm version minor && npm publish && git push --follow-tags",
+    "release-patch": "npm version patch && npm publish && git push --follow-tags",
     "standard": "standard",
     "test": "npm run standard --silent && node test.js | tap-spec"
   }

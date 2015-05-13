@@ -1,6 +1,10 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.8.0 - 2015-05-12
+### Added
+- add `release-*` scripts.
+
 ## 0.7.9 - 2015-05-11
 ### Changed
 - mention Duo, Bower as alternative install options.
