@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
+## 0.11.0 - 2015-05-30
+### Added
+- add `fixpack` (fixes #3).
+- document `fixpack`, `standard`, and `dependency-check` in `contributing.md`.
+
 ## 0.10.2 - 2015-05-30
 ### Added
 - add `Dependency checking` note to feature list.

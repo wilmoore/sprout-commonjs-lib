@@ -21,6 +21,28 @@ If you are adding a new feature, please include tests. The test suite for this p
 
 To keep a consistent coding style in the project, we're using [JavaScript Standard Style](https://github.com/feross/standard).
 
+```shell
+npm run standard
+```
+> This command will be run automatically with `npm run dev`; however, you can run it on-demand as necessary.
+
+## Dependencies
+
+To ensure that (1) we are not depending on uninstalled packages and (2) we haven't installed any unused packaged, we're using [dependency-check](https://www.npmjs.com/package/dependency-check).
+
+```shell
+npm run dependency-check
+```
+> This command will be run automatically with `npm run dev`; however, you can run it on-demand as necessary.
+
+## Package
+
+To keep a consistent `package.json`, we're using [`fixpack`](https://www.npmjs.com/package/fixpack).
+
+```shell
+npm run fixpack
+```
+
 ## Commits
 
 When submitting pull requests please add a [well-written and clear commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) and squash your commits. This means being familiar with rebasing - if you are not, [this guide](https://help.github.com/articles/about-git-rebase/) should help you to get started. If you are still confused, feel free to ask for help.
