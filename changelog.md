@@ -1,7 +1,7 @@
 # Change Log
 All notable changes to this project will be documented in this file (keepachangelog.com).
 
-## 0.9.0 - 2015-05-12
+## 0.10.1 - 2015-05-12
 ### Added
 - add `npm run dependency-check`.
 
