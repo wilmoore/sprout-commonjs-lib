@@ -27,6 +27,7 @@ sprout init commonjs-lib my-new-lib
  * Green test suite via [tape](https://github.com/substack/tape) & [npm test](https://docs.npmjs.com/cli/test).
  * Run tests automatically on file change via [nodemon](http://nodemon.io).
  * CI via [Travis CI](travis-ci.org) w/ [docker support enabled](http://blog.travis-ci.com/2014-12-17-faster-builds-with-container-based-infrastructure/) & [node_modules cached](http://blog.travis-ci.com/2013-12-05-speed-up-your-builds-cache-your-dependencies/).
+ * Dependency checking via [dependency-check](https://www.npmjs.com/package/dependency-check).
  * Support for npm [scoped packages](https://docs.npmjs.com/misc/scope).
  * Markdown-based [README](http://en.wikipedia.org/wiki/README) with awesome repo badges via [Shields.IO](http://shields.io).
  * Changelog per [Keep a CHANGELOG](http://keepachangelog.com).
