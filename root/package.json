@@ -28,6 +28,7 @@
     "url": "https://github.com/<%= github_user_name %>/<%= repo_name %>"
   },
   "scripts": {
+    "authors": "git shortlog -nes | tr -s ' ' | cut -f2- > authors",
     "cover": "istanbul cover test.js",
     "dependency-check": "dependency-check ./package.json && dependency-check ./package.json --unused --no-dev",
     "dev": "nodemon -x 'npm run test --silent' -e 'js json'",
