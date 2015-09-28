@@ -15,11 +15,11 @@ When opening an issue for a bug, please include steps for reproducing the proble
 
 ## Tests
 
-If you are adding a new feature, please include tests. The test suite for this project uses [tape](https://github.com/substack/tape). To run the test suite, type `npm test`. You may also run the development watcher (`npm run dev`) which uses [nodemon](http://nodemon.io) to re-run the test suite when files are modified. You can also get the raw tap output by running `node test`.
+If you are adding a new feature, please include tests. The test suite for this project uses [tape]. To run the test suite, type `npm test`. You may also run the development watcher (`npm run dev`) which uses [nodemon] to re-run the test suite when files are modified. You can also get the raw tap output by running `node test`.
 
 ## Style
 
-To keep a consistent coding style in the project, we're using [JavaScript Standard Style](https://github.com/feross/standard).
+To keep a consistent coding style in the project, we're using [JavaScript Standard Style].
 
 ```shell
 npm run standard
@@ -28,7 +28,7 @@ npm run standard
 
 ## Dependencies
 
-To ensure that (1) we are not depending on uninstalled packages and (2) we haven't installed any unused packaged, we're using [dependency-check](https://www.npmjs.com/package/dependency-check).
+To ensure that (1) we are not depending on uninstalled packages and (2) we haven't installed any unused packaged, we're using [dependency-check].
 
 ```shell
 npm run dependency-check
@@ -37,7 +37,7 @@ npm run dependency-check
 
 ## Package
 
-To keep a consistent `package.json`, we're using [`fixpack`](https://www.npmjs.com/package/fixpack).
+To keep a consistent `package.json`, we're using [`fixpack`].
 
 ```shell
 npm run fixpack
@@ -45,4 +45,12 @@ npm run fixpack
 
 ## Commits
 
-When submitting pull requests please add a [well-written and clear commit message](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html) and squash your commits. This means being familiar with rebasing - if you are not, [this guide](https://help.github.com/articles/about-git-rebase/) should help you to get started. If you are still confused, feel free to ask for help.
+When submitting pull requests please add a [well-written and clear commit message] and squash your commits. This means being familiar with [interactive rebasing].
+
+[dependency-check]: https://www.npmjs.com/package/dependency-check
+[`fixpack`]: https://www.npmjs.com/package/fixpack
+[JavaScript Standard Style]: http://standardjs.com
+[nodemon]: http://nodemon.io
+[interactive rebasing]: https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase-i
+[tape]: https://github.com/substack/tape
+[well-written and clear commit message]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
